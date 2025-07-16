@@ -1,0 +1,17 @@
+if y == 0 then
+	if abs(x) == 1 then
+		if abs(z) == 2 then
+			return 3
+		end
+		if z == 0 then
+			return 3
+		end
+	end
+	if abs(x) == 2 and abs(z) == 1 then
+		return 3
+	end
+	if x == 0 and abs(z) == 1 then
+		return 3
+	end
+	return 1
+end
