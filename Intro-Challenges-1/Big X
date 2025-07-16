@@ -1,0 +1,15 @@
+if x == y and y == z then
+	return 3
+end
+
+if x == -y and -y == z then
+	return 3
+end
+
+if x == y and y == -z then
+	return 3
+end
+
+if -x == y and y == z then
+	return 3
+end
