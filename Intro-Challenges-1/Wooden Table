@@ -1,0 +1,10 @@
+if abs(x) == 2 and abs(z) == 2 then
+	if y > 1 then
+	return EMPTY
+end
+	return 15
+end
+
+if y == 1 then
+	return 15
+end
