@@ -1,0 +1,12 @@
+if z >= -1 and z <= 1 then
+	if y == -3 then
+		return 15
+	end
+	if y == 0 and x >= -2 then
+		return 4
+	end
+	if x >= -2 and y <= 2 then
+		return 7
+	end
+	return 1
+end
